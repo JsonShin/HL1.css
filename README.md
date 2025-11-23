@@ -9,7 +9,7 @@
 # 入 HL1.css
 
 **HL1.css** is a lightweight retro UI CSS library, inspired by _Half‑Life 1_.  
-It provides classic-style components along with a demo page to try them out.
+It provides classic-style components along with a demo page to try them out.<br>
 **[Documentation](https://hl1css.vercel.app/ "Documentation")**
 <br>
 
@@ -25,17 +25,18 @@ It provides classic-style components along with a demo page to try them out.
 <br>
 
 # ⚙️Component
-✅Input
-✅Checkbox
-✅Select
-✅Radio Group
-✅Slider
-✅Progress Bar
-✅Button
-✅Tooltip
-✅Dialog
-✅Horizontal Rule
-✅Tabs
+
+✅Input<br>
+✅Checkbox<br>
+✅Select<br>
+✅Radio Group<br>
+✅Slider<br>
+✅Progress Bar<br>
+✅Button<br>
+✅Tooltip<br>
+✅Dialog<br>
+✅Horizontal Rule<br>
+✅Tabs<br>
 
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW9rd3o4aDdndWIwbmp1aTMyNzNtNG10dWppcXZlZDlzazJ5bDJyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2x4b4X7yUnmww/giphy.gif" alt="HL1.css logo" height="300" style="margin: 0 auto;">
