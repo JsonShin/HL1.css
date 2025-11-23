@@ -28,7 +28,6 @@ It provides classic-style components along with a demo page to try them out.
 <br>
 
 # ⚙️Component
-
 ✅Input
 ✅Checkbox
 ✅Select
@@ -40,6 +39,7 @@ It provides classic-style components along with a demo page to try them out.
 ✅Dialog
 ✅Horizontal Rule
 ✅Tabs
+
 
 <div style="text-align: center;">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW9rd3o4aDdndWIwbmp1aTMyNzNtNG10dWppcXZlZDlzazJ5bDJyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2x4b4X7yUnmww/giphy.gif" 
