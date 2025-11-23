@@ -4,6 +4,7 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Orange_lambda.svg" alt="HL1.css logo" height="100" style="margin: 0;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg" alt="HL1.css logo" height="100" style="margin: 0;">
   </dev>
+  </div>
 
 # 入 HL1.css
 
@@ -17,7 +18,10 @@ It provides classic-style components along with a demo page to try them out.
 **Add the CDN link to your project and you're ready to go.**
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/TAERABYTE/HL1.css@main/css/HL1.min.css" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/gh/TAERABYTE/HL1.css@main/css/HL1.min.css" />
 ```
 
 <br>
@@ -47,4 +51,5 @@ It provides classic-style components along with a demo page to try them out.
 forDev
 </a>
 </div>
+
 <br>
