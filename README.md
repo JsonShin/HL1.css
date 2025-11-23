@@ -36,7 +36,7 @@ It provides classic-style components along with a demo page to try them out.<br>
 ✅Tooltip [🔗](https://hl1css.vercel.app/#Tooltip "🔗")<br>
 ✅Dialog [🔗](https://hl1css.vercel.app/#Dialog "🔗")<br>
 ✅Horizontal Rule [🔗](https://hl1css.vercel.app/#HorizontalRule "🔗")<br>
-✅Tabs [🔗](https://hl1css.vercel.app/#Tabs "🔗")<br>
+✅Tabs [🔗](https://hl1css.vercel.app/#Tabs)<br>
 
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW9rd3o4aDdndWIwbmp1aTMyNzNtNG10dWppcXZlZDlzazJ5bDJyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2x4b4X7yUnmww/giphy.gif" alt="HL1.css logo" height="300" style="margin: 0 auto;">
