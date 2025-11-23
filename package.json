@@ -1,0 +1,23 @@
+{
+  "name": "hl16.css",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:css": "npm run build:autoprefix && npm run build:cleancss",
+    "build:autoprefix": "postcss --use autoprefixer postcss-pxtorem --no-map --output css/HL1.css src/HL1.css",
+    "build:cleancss": "postcss --use cssnano --no-map -o css/HL1.min.css src/HL1.css"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.22",
+    "cssnano": "^7.1.2",
+    "postcss-cli": "^11.0.1",
+    "postcss-pxtorem": "^6.1.0"
+  }
+}
