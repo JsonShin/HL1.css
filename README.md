@@ -30,7 +30,7 @@ It provides classic-style components along with a demo page to try them out.<br>
 ✅Checkbox<br>
 ✅Select<br>
 ✅Radio Group<br>
-✅Slider<br>
+✅**[Slider](https://hl1css.vercel.app/#Slider "Slider")**<br>
 ✅Progress Bar<br>
 ✅Button<br>
 ✅Tooltip<br>
