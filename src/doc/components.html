@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/TAERABYTE/HL1@main/HL1/HL1.min.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="icon" type="image/x-icon" href="../../public/favicon.ico" />
+    <title>HL1</title>
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <button class="hl-btn mbb-2" id="back-btn">< Back</button>
+        <h2 style="color: #c4b550">Components</h2>
+      </div>
+      <hr class="hl-hr" />
+    </header>
+
+    <main>
+      <!-- # Tabs -->
+      <div id="Tabs" class="hl-con">
+        <h2 style="color: #c4b550"># Tabs</h2>
+
+        <div class="hl-tabs">
+          <input
+            class="radiotab"
+            name="tabs"
+            tabindex="1"
+            type="radio"
+            id="tabone"
+            checked="checked" />
+          <label class="label" for="tabone">Tab One</label>
+          <div class="panel" tabindex="1">
+            <h2>Tab One Content</h2>
+            <p>Tab content...</p>
+          </div>
+          <input
+            class="radiotab"
+            tabindex="1"
+            name="tabs"
+            type="radio"
+            id="tabtwo" />
+          <label class="label" for="tabtwo">Tab Two</label>
+          <div class="panel" tabindex="1">
+            <h2>Tab Two Content</h2>
+            <p>Tab content...</p>
+          </div>
+          <input
+            class="radiotab"
+            tabindex="1"
+            name="tabs"
+            type="radio"
+            id="tabthree" />
+          <label class="label" for="tabthree">Tab Three</label>
+          <div class="panel" tabindex="1">
+            <h2>Tab Three Content</h2>
+            <p>Tab content...</p>
+          </div>
+        </div>
+
+        <div class="code-block">
+          <button class="hl-btn toggle-vision">Show code</button>
+
+          <div class="inner hidden">
+            <button class="hl-btn">Copy</button>
+
+            <pre><code id="code-block">&lt;div class=&quot;hl-tabs&quot;&gt;
+  &lt;input
+    class=&quot;radiotab&quot;
+    name=&quot;tabs&quot;
+    tabindex=&quot;1&quot;
+    type=&quot;radio&quot;
+    id=&quot;tabone&quot;
+    checked=&quot;checked&quot;
+  /&gt;
+  &lt;label class=&quot;label&quot; for=&quot;tabone&quot;&gt;Tab One&lt;/label&gt;
+  &lt;div class=&quot;panel&quot; tabindex=&quot;1&quot;&gt;
+    &lt;h2&gt;Tab One Content&lt;/h2&gt;
+    &lt;p&gt;Tab content...&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;input
+    class=&quot;radiotab&quot;
+    tabindex=&quot;1&quot;
+    name=&quot;tabs&quot;
+    type=&quot;radio&quot;
+    id=&quot;tabtwo&quot;
+  /&gt;
+  &lt;label class=&quot;label&quot; for=&quot;tabtwo&quot;&gt;Tab Two&lt;/label&gt;
+  &lt;div class=&quot;panel&quot; tabindex=&quot;1&quot;&gt;
+    &lt;h2&gt;Tab Two Content&lt;/h2&gt;
+    &lt;p&gt;Tab content...&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;input
+    class=&quot;radiotab&quot;
+    tabindex=&quot;1&quot;
+    name=&quot;tabs&quot;
+    type=&quot;radio&quot;
+    id=&quot;tabthree&quot;
+  /&gt;
+  &lt;label class=&quot;label&quot; for=&quot;tabthree&quot;&gt;Tab Three&lt;/label&gt;
+  &lt;div class=&quot;panel&quot; tabindex=&quot;1&quot;&gt;
+    &lt;h2&gt;Tab Three Content&lt;/h2&gt;
+    &lt;p&gt;Tab content...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer style="color: #fb821b">Made by TAE</footer>
+  </body>
+</html>
+<script
+  type="module"
+  src="https://cdn.jsdelivr.net/gh/TAERABYTE/HL1.css@main/HL1/main.min.js"
+  defer></script>
+<script>
+  document.getElementById("back-btn").addEventListener("click", function () {
+    window.location.href = "/";
+  });
+</script>

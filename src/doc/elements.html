@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/TAERABYTE/HL1@main/HL1/HL1.min.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="icon" type="image/x-icon" href="../../public/favicon.ico" />
+    <title>HL1</title>
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <button class="hl-btn mbb-2" id="back-btn">< Back</button>
+        <h2 style="color: #c4b550">Elements</h2>
+      </div>
+      <hr class="hl-hr" />
+    </header>
+
+    <main>
+      <!-- # Button -->
+      <div id="Button" class="hl-con">
+        <h2 style="color: #c4b550"># Button</h2>
+
+        <button class="hl-btn">Button</button>
+        <button class="hl-btn-success">Success</button>
+        <button class="hl-btn-primary">Primary</button>
+        <button class="hl-btn-warning">Warning</button>
+        <button class="hl-btn-danger">Danger</button>
+        <button class="hl-btn" disabled>Disabled</button>
+
+        <div class="code-block">
+          <button class="hl-btn toggle-vision">Show code</button>
+
+          <div class="inner hidden">
+            <button class="hl-btn">Copy</button>
+
+            <pre><code id="code-block">&lt;button class="hl-btn"&gt;Button&lt;/button&gt;
+&lt;button class="hl-btn-success"&gt;Success&lt;/button&gt;
+&lt;button class="hl-btn-primary"&gt;Primary&lt;/button&gt;
+&lt;button class="hl-btn-warning"&gt;Warning&lt;/button&gt;
+&lt;button class="hl-btn-danger"&gt;Danger&lt;/button&gt;
+&lt;button class="hl-btn" disabled&gt;Disabled&lt;/button&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+      <!-- # Horizontal Rule -->
+      <div id="HorizontalRule" class="hl-con">
+        <h2 style="color: #c4b550"># Horizontal Rule</h2>
+
+        <hr class="hl-hr" />
+
+        <div class="code-block">
+          <button class="hl-btn toggle-vision">Show code</button>
+
+          <div class="inner hidden">
+            <button class="hl-btn">Copy</button>
+
+            <pre><code id="code-block">&lt;hr class=&quot;hl-hr&quot; /&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer style="color: #fb821b">Made by TAE</footer>
+  </body>
+</html>
+<script
+  type="module"
+  src="https://cdn.jsdelivr.net/gh/TAERABYTE/HL1.css@main/HL1/main.min.js"
+  defer></script>
+<script>
+  document.getElementById("back-btn").addEventListener("click", function () {
+    window.location.href = "/";
+  });
+</script>

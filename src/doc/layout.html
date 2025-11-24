@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/TAERABYTE/HL1@main/HL1/HL1.min.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="icon" type="image/x-icon" href="../../public/favicon.ico" />
+    <title>HL1</title>
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <button class="hl-btn mbb-2" id="back-btn">< Back</button>
+        <h2 style="color: #c4b550">Layout</h2>
+      </div>
+      <hr class="hl-hr" />
+    </header>
+
+    <main>
+      <!-- # Tabs -->
+      <div id="Tabs" class="hl-con">
+        <h2 style="color: #c4b550"># Container</h2>
+
+        <div class="hl-con-s"></div>
+        <br />
+        <div class="hl-con-m"></div>
+        <br />
+        <div class="hl-con"></div>
+        <br />
+
+        <div class="code-block">
+          <button class="hl-btn toggle-vision">Show code</button>
+
+          <div class="inner hidden">
+            <button class="hl-btn">Copy</button>
+
+            <pre><code id="code-block">&lt;div class=&quot;hl-con-s&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;hl-con-m&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;hl-con&quot;&gt;&lt;/div&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer style="color: #fb821b">Made by TAE</footer>
+  </body>
+</html>
+<script
+  type="module"
+  src="https://cdn.jsdelivr.net/gh/TAERABYTE/HL1.css@main/HL1/main.min.js"
+  defer></script>
+<script>
+  document.getElementById("back-btn").addEventListener("click", function () {
+    window.location.href = "/";
+  });
+</script>

@@ -82,18 +82,16 @@ Skip the download with jsDelivr to deliver cached version of HL1 compiled CSS an
 - [ ] Playground
 
 ### Layout
-- [ ] Container
+- [X] Container
 - [ ] Hero
 - [ ] Section
-- [ ] Level
 - [ ] Media Object
-- [ ] Footer
 
 <br>
 
-## 📚 CSS Library
+## 📚 CSS Helpers
 - [ ] Color Palette
-- [ ] Spacing
+- [x] Spacing
 - [ ] Visibility
 - [ ] Flexbox
 - [ ] Other

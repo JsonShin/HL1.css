@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/TAERABYTE/HL1@main/HL1/HL1.min.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="icon" type="image/x-icon" href="../../public/favicon.ico" />
+    <title>HL1</title>
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <button class="hl-btn mbb-2" id="back-btn">< Back</button>
+        <h2 style="color: #c4b550">Form</h2>
+      </div>
+      <hr class="hl-hr" />
+    </header>
+
+    <main>
+      <!-- # Input -->
+      <div id="Input" class="hl-con">
+        <h2 style="color: #c4b550"># Input</h2>
+
+        <input class="hl-input" id="input" type="input" />
+        <label class="hl-input__label" for="input">First name</label>
+
+        <br />
+        <br />
+
+        <input type="text" value="john wick" class="hl-input" />
+        <input type="text" disabled value="Disabled" class="hl-input" />
+
+        <div class="code-block">
+          <button class="hl-btn toggle-vision">Show code</button>
+
+          <div class="inner hidden">
+            <button class="hl-btn">Copy</button>
+
+            <pre><code id="code-block">&lt;input class=&quot;hl-input&quot; id=&quot;input&quot; type=&quot;input&quot; /&gt;
+&lt;label class=&quot;hl-input__label&quot; for=&quot;input&quot;&gt;First name&lt;/label&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+
+&lt;input type=&quot;text&quot; value=&quot;john wick&quot; class=&quot;hl-input&quot; /&gt;
+&lt;input type=&quot;text&quot; disabled value=&quot;Disabled&quot; class=&quot;hl-input&quot; /&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+      <!-- # Checkbox -->
+      <div id="Checkbox" class="hl-con">
+        <h2 style="color: #c4b550"># Checkbox</h2>
+
+        <div class="hl-checkbox">
+          <input id="checkbox" type="checkbox" />
+          <label class="hl-checkbox__label" for="checkbox">Checkbox</label>
+        </div>
+
+        <div class="code-block">
+          <button class="hl-btn toggle-vision">Show code</button>
+
+          <div class="inner hidden">
+            <button class="hl-btn">Copy</button>
+
+            <pre><code id="code-block">&lt;div class=&quot;hl-checkbox&quot;&gt;
+  &lt;input id=&quot;checkbox&quot; type=&quot;checkbox&quot; /&gt;
+  &lt;label class=&quot;hl-checkbox__label&quot; for=&quot;checkbox&quot;&gt;Checkbox&lt;/label&gt;
+&lt;/div&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+      <!-- # Select -->
+      <div id="Select" class="hl-con">
+        <h2 style="color: #c4b550"># Select</h2>
+
+        <label class="hl-select__label" for="cars">choose something:</label>
+        <select class="hl-select" name="cars" id="cars">
+          <option value="volvo">i</option>
+          <option value="saab">love</option>
+          <option value="opel">you</option>
+          <option value="audi">so much</option>
+        </select>
+
+        <div class="code-block">
+          <button class="hl-btn toggle-vision">Show code</button>
+
+          <div class="inner hidden">
+            <button class="hl-btn">Copy</button>
+
+            <pre><code id="code-block">&lt;label class=&quot;hl-select__label&quot; for=&quot;something&quot;&gt;choose something:&lt;/label&gt;
+&lt;select class=&quot;hl-select&quot; name=&quot;something&quot; id=&quot;something&quot;&gt;
+  &lt;option value=&quot;i&quot;&gt;i&lt;/option&gt;
+  &lt;option value=&quot;love&quot;&gt;love&lt;/option&gt;
+  &lt;option value=&quot;you&quot;&gt;you&lt;/option&gt;
+  &lt;option value=&quot;so much&quot;&gt;so much&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+      <!-- # Radio Group -->
+      <div id="RadioGroup" class="hl-con">
+        <h2 style="color: #c4b550"># Radio Group</h2>
+
+        <fieldset class="hl-fieldset">
+          <legend>What is your favorite wild animal?</legend>
+          <div class="radio-wrapper">
+            <input type="radio" name="animal" id="elephant" />
+            <label for="elephant">Elephant</label>
+          </div>
+          <div class="radio-wrapper">
+            <input type="radio" name="animal" id="monkey" />
+            <label for="monkey">Monkey</label>
+          </div>
+          <div class="radio-wrapper">
+            <input type="radio" name="animal" id="cheetah" />
+            <label for="cheetah">Cheetah</label>
+          </div>
+          <div class="radio-wrapper">
+            <input type="radio" name="animal" id="giraffe" />
+            <label for="giraffe">Giraffe</label>
+          </div>
+        </fieldset>
+
+        <div class="code-block">
+          <button class="hl-btn toggle-vision">Show code</button>
+
+          <div class="inner hidden">
+            <button class="hl-btn">Copy</button>
+
+            <pre><code id="code-block">&lt;fieldset class=&quot;hl-fieldset&quot;&gt;
+  &lt;legend&gt;What is your favorite wild animal?&lt;/legend&gt;
+  &lt;div class=&quot;radio-wrapper&quot;&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;animal&quot; id=&quot;elephant&quot; /&gt;
+    &lt;label for=&quot;elephant&quot;&gt;Elephant&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;radio-wrapper&quot;&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;animal&quot; id=&quot;monkey&quot; /&gt;
+    &lt;label for=&quot;monkey&quot;&gt;Monkey&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;radio-wrapper&quot;&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;animal&quot; id=&quot;cheetah&quot; /&gt;
+    &lt;label for=&quot;cheetah&quot;&gt;Cheetah&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;radio-wrapper&quot;&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;animal&quot; id=&quot;giraffe&quot; /&gt;
+    &lt;label for=&quot;giraffe&quot;&gt;Giraffe&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/fieldset&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer style="color: #fb821b">Made by TAE</footer>
+  </body>
+</html>
+<script
+  type="module"
+  src="https://cdn.jsdelivr.net/gh/TAERABYTE/HL1.css@main/HL1/main.min.js"
+  defer></script>
+<script>
+  document.getElementById("back-btn").addEventListener("click", function () {
+    window.location.href = "/";
+  });
+</script>
