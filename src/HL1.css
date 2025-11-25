@@ -854,14 +854,14 @@ body {
 .hl-con {
   position: relative;
   padding: 10px 20px 20px;
-  background: var(--bg);
+  background: #4c5844;
   width: 100%;
-  border-left: solid 1px var(--border-light);
-  border-bottom: solid 1px var(--border-dark);
-  border-right: solid 1px var(--border-dark);
-  border-top: solid 1px var(--border-light);
+  border-left: solid 1px #8c9284;
+  border-bottom: solid 1px #292c21;
+  border-right: solid 1px #292c21;
+  border-top: solid 1px #8c9284;
   order: 99;
-  color: var(--text);
+  color: #d8ded3;
 }
 .hl-con-s {
   position: relative;
