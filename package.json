@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:css && npm run build:js",
+    "build": "vite build",
+    "build:HL1": "npm run build:css && npm run build:js",
     "build:css": "postcss src/HL1.css -o HL1/HL1.min.css",
     "build:js": "esbuild src/main.js --bundle --minify --format=iife --global-name=HL1 --outfile=HL1/HL1.min.js",
     "preview": "vite preview"
